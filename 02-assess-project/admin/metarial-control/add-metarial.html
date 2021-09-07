@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alive-alone</title>
+	<link href="met-con.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <!-- <link href="D:/Visual studio code/all_project/assess-project/control.css" rel="stylesheet" type="text/css" /> -->
+
+</head>
+<body>
+    <div style="float: left;" class="change-div">
+        <table class="table02">
+            <tr>
+                <td>名称:</td>
+                <td><input type="text" placeholder="名称" id="met-name"></td>
+            </tr>
+            <tr>
+                <td>型号:</td>
+                <td><input type="text" placeholder="型号" id="met-type"></td>
+            </tr>
+            <tr>
+                <td>位置:</td>
+                <td>
+                    <input type="radio" name="place" id="3060" value="306"> <label for="306"> 306 </label>
+                    <input type="radio" name="place" id="3080" value="308"> <label for="308"> 308 </label>
+                </td>
+            </tr>
+            <tr>
+                <td>类型:</td>
+                <td>
+                    <input type="radio" name="attribute" id="设备" value="设备"> <label for="设备"> 设备 </label>
+                    <input type="radio" name="attribute" id="器件" value="器件"> <label for="器件"> 器件 </label>
+                </td>
+            </tr>
+            <tr>
+                <td >状态：</td>
+                <td>
+                    <input list="status" id="status01" placeholder="状态">
+                    <datalist id="status">
+                        <option value="忙碌">
+                        <option value="闲置">
+                        <option value="充足">
+                        <option value="适量">
+                        <option value="缺少">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                   <button class="btn06" style="float: right;" id="add-met">添加</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+	<script src="../admin-load.js"></script>
+	<script src="met-con.js"></script>
+	<script src="../../control.js"></script>
+</body>
+</html>

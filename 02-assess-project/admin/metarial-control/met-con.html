@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>alive-alone</title>
+	<link href="met-con.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="D:/Visual studio code/all_project/assess-project/control.css" rel="stylesheet" type="text/css" /> -->
+		<link href="./../../control.css" rel="stylesheet" type="text/css" />
+		<link href="../../total/total.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="margin-top: 0%;">
+  <h1 class="h1-01">物资管理系统</h1>
+	<p style="float: right; margin-right: 10%;">搜索：<input type="text" id="search"></p>
+	<div style="background-color: rgb(138, 42, 248,0.5); width: 85%;height: 65%; margin-left:auto; margin-right:auto;overflow: auto;">
+		<table class="th" width="100%" cellspacing="0" align="center" id="tab01"><!--style="table-layout:fixed"-->
+			<thead>
+				<tr>
+					<th>
+						<input type="checkbox" name="" id="" class="checkall" >全选
+					</th>
+					<th>名称</th>
+					<th>类型</th>
+					<th>位置</th>
+					<th>状态</th>
+					<th>时间</th>
+					<th>详情</th>
+				</tr>
+			</thead>
+		</table>
+		<!-- <div id="div01" style="text-align: left;" class="div05">
+			<button class="btn04" id="back01">返回</button>
+			<button class="btn04" id="add" style="float: right;">添加</button>
+		</div> -->
+	</div>
+	<div class="container" style="float: right;margin-right: 50px;">
+		<a data-animation="ripple" id="add">添加</a>
+	</div>
+	
+	<div class="div">
+		<a style="float: left;" id="back-load">返回</a>
+	</div>                                                                         
+	<div class="div02" id="div-02">
+		<iframe src="change.html" id="iframe_a" frameborder="0" width="90%" height="210"></iframe>
+	</div>
+	<div class="div03" id="div-03">
+		<iframe src="apply01.html" id="iframe_b" frameborder="0" width="90%" height="350"></iframe>
+	</div>
+	<div class="div02" id="div-04">
+		<iframe src="add-metarial.html" id="iframe_c" frameborder="0" width="90%" height="290"></iframe>
+	</div>
+	
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+	<script src="../admin-load.js"></script>
+	<script src="met-con.js"></script>
+	<script src="../../control.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.breathe-div {
+  /* width: 100px;
+  height: 100px; */
+  width: 20%;
+  border: 1px solid #7f6bee;
+  color: #6e56f5;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin:20px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes breathe {
+  0% {
+      opacity: .4;
+      box-shadow: 0 1px 2px rgba(0, 147, 223, 0.4), 0 1px 1px rgba(0, 147, 223, 0.1) inset;
+  }
+
+  100% {
+      opacity: 1;
+      border: 1px solid rgba(121, 59, 235, 0.7);
+      box-shadow: 0 1px 30px #6100df, 0 1px 20px #6100df inset;
+  }
+}
+

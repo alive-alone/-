@@ -1,0 +1,219 @@
+.div01 {
+    background-color: rgb(138, 42, 248,0.5);
+    color: rgb(175, 146, 252);
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+    width: 60%;
+    /* height: 80%; */
+}
+
+.btn06 {
+    border: none;
+    padding: 10px;
+    background: rgb(165, 231, 211);
+    color: rgb(84, 194, 93);
+    width: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.forget {
+  color: #935df8;
+  text-decoration: none;
+}
+
+.container {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	width: 130px;
+		top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	width: 130px;
+	margin: auto;
+}
+*[data-animation="ripple"] {
+	height: 100%;
+	width: 100%;
+	display: block;
+	outline: none;
+	padding: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	background: linear-gradient(135deg, #9b67fd 0%,#ca9dfdd7 100%);
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 14px;
+	font-family: roboto, helvetica;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-decoration: none;
+	box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+  /*border-radius: 50px;*/
+	-webkit-tap-highlight-color: transparent;
+	border-radius: 5px;
+}
+
+*[data-animation="ripple"]:focus {
+	outline: none;
+}
+
+*[data-animation="ripple"]::selection {
+	background: transparent;
+	pointer-events: none;
+}
+
+
+.light {
+  width: 25%;
+  border-radius:5px;
+  position: relative;
+  padding: 10px 30px;
+  color: #d4bff7;
+  background: linear-gradient(135deg, #874af7 0%,#d5b5fad7 100%);
+  font-size: 18px;
+  margin: auto;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.light:hover {
+  background-color: #7731c7;
+  color: #8837e4;
+  box-shadow: 0 0 5px #761dc9,
+              0 0 25px #730fb6,
+              0 0 50px #8b24df,
+              0 0 150px #9834eb;
+}
+.light div {
+  position: absolute;
+}
+.light div:nth-child(1){
+  width: 100%;
+  height: 4px;
+  top: 0;
+  left: -100%;
+  background: linear-gradient(to right,transparent,#d8b4fa);
+  animation: animate1 1s linear infinite;
+}
+.light div:nth-child(2){
+  width: 4px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+  background: linear-gradient(to bottom,transparent,#d8b4fa);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+.light div:nth-child(3){
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  right: -100%;
+  background: linear-gradient(to left,transparent,#d8b4fa);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+.light div:nth-child(4){
+  width: 4px;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+  background: linear-gradient(to top,transparent,#d8b4fa);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+ }
+}
+
+#login-box{
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15%;
+  text-align: center;
+  background: #00000090;
+  padding: 20px 50px;
+}
+
+#login-box h1{
+  color: rgb(178, 177, 248);
+  /* font-size: 36px; */
+}
+
+#login-box .form .item{
+  margin-top: 15px;
+}
+
+#login-box .form .item i{
+  font-size: 18px;
+  color: #fff;
+}
+
+#login-box .form .item input{
+  width: 180px;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding: 5px 10px;
+  background: #ffffff00;
+  color: #fff;
+}
+#login-box button{
+  margin-top: 15px;
+  width: 180px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  /* background: #1abc9c; */
+  /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+

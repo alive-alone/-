@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alive-alone</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="../control.css">
+</head>
+<body>
+    <h1 class="h1-01">管理员登录界面</h1>
+    <!-- 
+    <div>
+        <div>
+            <p class="h1-01">
+                账号：<input type="text" placeholder="账号">
+            </p>
+            <p class="h1-01">
+                密码：<input type="password" placeholder="密码">
+            </p>
+        </div>
+        <div style="text-align: right;">
+            <button class="btn02">忘记密码</button>
+        </div>
+    </div>
+     -->
+    <table class="table01">
+        <tr>
+            <td>
+                <p>
+                    账号：<input type="text" placeholder="账号" id="adm-name">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    密码：<input type="password" placeholder="密码" id="adm-pass">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <button class="btn03" id="admin-load">登录</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <button style="float: left;" class="btn02" id="back-load">返回</button>    
+                <button class="btn02" style="float: right;" id="forget">忘记密码</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="../control.js"></script>
+    <script src="admin-load.js"></script>
+</body>
+</html>

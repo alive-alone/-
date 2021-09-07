@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alive-alone</title>
+	<link href="met-con.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <!-- <link href="D:/Visual studio code/all_project/assess-project/control.css" rel="stylesheet" type="text/css" /> -->
+
+</head>
+<body style="text-align: left;">
+    <div style="float: left;" class="change-div">
+        <div class="div-change">
+            修改位置：
+            <input type="radio" name="position" id="306" value="306"> <label for="306"> 306 </label>
+            <input type="radio" name="position" id="308" value="308"> <label for="308"> 308 </label>
+        </div>
+        <div class="div-change">
+            修改状态：
+            <input type="radio" name="state" id="忙碌" value="忙碌"> <label for="忙碌"> 忙碌 </label>
+            <input type="radio" name="state" id="闲置" value="闲置"> <label for="闲置"> 闲置 </label>
+            <input type="radio" name="state" id="充足" value="充足"> <label for="充足"> 充足 </label>
+            <input type="radio" name="state" id="适量" value="适量"> <label for="适量"> 适量 </label>
+            <input type="radio" name="state" id="缺少" value="缺少"> <label for="缺少"> 缺少 </label>
+        </div>
+        <div class="div-change">
+            删除物资：
+            <button class="btn05" id="del-met">删除</button>
+            <button class="btn05" style="float: right;" id="determine">确定</button>
+        </div>
+
+    </div>
+
+	<script src="../admin-load.js"></script>
+	<script src="met-con.js"></script>
+	<script src="../../control.js"></script>
+</body>
+</html>

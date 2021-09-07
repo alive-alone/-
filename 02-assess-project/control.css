@@ -1,0 +1,188 @@
+body {
+    /* background-color: rgb(195, 250, 206); */
+    /* background-image: url('./01.jpg'); */
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background: url('./03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.demo{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background: url('./02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+
+}
+
+.h1-01 {
+    color: rgb(141, 110, 253);
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    /* text-shadow: 3px 2px 6px #888888; */
+}
+button {
+    border-radius: 5px;
+}
+.btn01 {
+    margin: 30px;
+    padding: 10px;
+    background: rgb(165, 231, 211);
+    color: rgb(84, 194, 93);
+    border: none;
+    width: 20%;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+
+.btn02 {
+    padding: 10px;
+    border: none;
+    background: rgb(165, 224, 210);
+    color: rgb(56, 197, 162);
+    width: 20%;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+
+.btn03 {
+    padding: 10px;
+    border: none;
+    background: rgb(165, 231, 211);
+    color: rgb(84, 194, 93);
+    width: 30%;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+.btn04 {
+    border: none;
+    padding: 10px;
+    margin-left: 30%;
+    background: rgb(165, 231, 211);
+    color: rgb(84, 194, 93);
+    width: 8%;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+.table01 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.table02 {
+    width: 35%;
+    margin: auto;
+    color: rgb(170, 140, 252);
+    /* font-size: 18px; */
+}
+.table02 td {
+    text-align: left;
+    width: 6%;
+}
+
+.table02 td:nth-child(1) {
+    text-align: right;
+    width: 6%;
+}
+.td02 {
+    width: 30%;
+}
+.table02 tr {
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div a {
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 45px;
+    color: #b0a7fc;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#003);
+}
+.div a:hover {
+    background: #b0a7fc;
+    color: #111;
+    box-shadow: 0 0 50px #b0a7fc;
+    transition-delay: 0.5s;
+}
+
+/* a:nth-child(3) {
+    filter: hue-rotate(115deg);
+    filter: hue-rotate();
+}
+a:nth-child(5) {
+    filter: hue-rotate(200deg);
+} */
+
+.div a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height:10px;
+    border-top: 2px solid #b0a7fc;
+    border-left: 2px solid #b0a7fc;
+    transition:0.5s;
+    transition-delay: 0.5s;
+}
+.div a:hover::before {
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+.div a::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #b0a7fc;
+    border-right: 2px solid #b0a7fc;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.div a:hover::after {
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+p {
+    color: #b0a7fc;
+}

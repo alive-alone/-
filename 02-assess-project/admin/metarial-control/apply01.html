@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alive-alone</title>
+	<link href="met-con.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+</head>
+<body style="text-align: left;">
+    <div style="float: left;" class="change-div">
+        <div>
+            <br>申请说明：<br>
+            <textarea style="color: rgba(78, 72, 78, 0.5);" id="reason"></textarea>
+        </div>
+        <div id="apply-time">
+            <br>申请时间：<br>
+            开始时间<input type="text" placeholder="月-日-时" id="start"><br><br>
+            截止时间<input type="text" placeholder="月-日-时" id="end"><br>
+        </div>
+        <div id="apply-number">
+            <h4>申请数量：</h4>
+            <input type="number" id="amount">
+        </div>
+        <div class="div-change" style="margin-left: 550px;">
+            <button class="btn06" style="float: right;" id="submit01">申请</button>
+        </div>
+        
+    </div>
+	<script src="../admin-load.js"></script>
+	<script src="met-con.js"></script>
+	<script src="../../control.js"></script>
+</body>
+</html>

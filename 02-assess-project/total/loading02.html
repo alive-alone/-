@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>alive-alone</title>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="./total.css">
+  <link rel="stylesheet" href="../control.css">
+  <!-- <link rel="stylesheet" href="D:/font-awesome-4.7.0/css/font-awesome.css"> -->
+</head>
+<body style="margin-top: 0%;">
+  <div id="login-box" style="width: 50%;">
+    <form action="">
+      <h1>Login</h1>
+      <div class="form">
+        <div class="item">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <input type="text" placeholder="Username" id="account-name" required />
+        </div>
+        <div class="item">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <input type="password" placeholder="Password" id="account-pass" required />
+        </div>
+      </div>
+      <!-- <button type="submit">Login</button> -->
+      <div style="margin: 10px; font-size: 18px;">
+          <a href="./register-account.html" class="forget" style="margin-left: 2%;padding-right:100px ;">注册账号</a>
+          <a href="./forget-password.html" class="forget">忘记密码?</a>
+      </div>
+  
+      <div class="light" style="margin-top: 3%;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <span id="loadings">登录</span>
+    </div>
+    </form>
+  </div>
+  <div class="div">
+    <a style="float: left;" id="back-load">返回</a>
+  </div>
+</body>
+<script src="../control.js"></script>
+<script src="register-account.js"></script>
+</html>

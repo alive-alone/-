@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>alive-alone</title>
+	<!-- <link href="../admin/metarial-control/met-con.css" rel="stylesheet" type="text/css" /> -->
+	<link href="../control.css" rel="stylesheet" type="text/css" />
+	<link href="total.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+</head>
+<body>
+	<div style="height: 65%;">
+    <div class="div01">
+			<div >
+				所属部门：
+				<input list="section" id="department" placeholder="部门">
+				<datalist id="section">
+					<option value="主席团">
+					<option value="贝尔组">
+					<option value="实践部">
+					<option value="外联部">
+					<option value="网宣部">
+					<option value="维修部">
+					<option value="项目部">
+				</datalist>
+			</div>
+			<div>
+				<br>现担任职务：
+				<input type="text" placeholder="职务" id="job">
+			</div>
+        <div>
+            <br>申请说明：
+            <textarea style="color: rgba(78, 72, 78, 0.5);" id="admin-reason" placeholder="原因、理由"></textarea><br>
+        </div>
+			<div>
+				<br>是否已向协会声明：
+				<input type="radio" name="statement" id="man" value="已声明"> <label for="man"> 是 </label>
+				<input type="radio" name="statement" id="wen" value="未声明"> <label for="wen"> 否 </label>
+			</div>
+
+			<div id="apply-number">
+				<!-- <br>
+				<button class="btn06" id="back-load">返回</button>
+				<button class="btn06" style="float: right;" id="submit">申请</button> -->
+			</div>
+		</div>
+  </div>
+	<div class="div">
+		<a style="float: left;" id="back-load">返回</a>
+		<a style="float: right;" id="submit">申请</a>
+	</div>
+	<script src="register-account.js"></script>
+	<script src="../control.js"></script>
+</body>
+</html>
